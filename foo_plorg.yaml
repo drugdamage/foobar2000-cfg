@@ -1,0 +1,5 @@
+# Playlist Organizer Configuration
+node_format: "%node_name%"
+
+tree:
+ - playlist: "Default Playlist"

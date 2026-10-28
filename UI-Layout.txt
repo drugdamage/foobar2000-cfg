@@ -1,0 +1,13 @@
+splitter horizontal style=thin
+ waveform-seekbar
+ splitter vertical style=thin
+  tabs
+   plorg tab-name="Playlists"
+   albumlist tab-name="Library"
+  simplaylist
+  splitter horizontal style=thin
+   tabs
+    splitter horizontal style=thin tab-name="Now Playing"
+     albumart
+     selection-properties sections=metadata
+   playback-controls

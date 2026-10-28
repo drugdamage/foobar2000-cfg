@@ -1,0 +1,34 @@
+# --- Caches (regenerated automatically by foobar2000 / components) ---
+waveform_cache/
+ImageCache/
+*[Cc]ache/
+*[Cc]ache*/
+*.cache
+
+# --- Crash reports ---
+*.crash
+*.ips
+*.dmp
+crash*/
+[Cc]rash[Rr]eports/
+
+# --- Logs ---
+*.log
+logs/
+[Ll]ogs/
+
+# --- Temporary / runtime files ---
+running
+*.tmp
+*.temp
+*.bak
+*~
+*.swp
+.DS_Store
+*-wal
+*-shm
+*-journal
+
+# --- Files larger than 50 MB ---
+# .gitignore cannot match by size. A pre-commit hook (.git/hooks/pre-commit)
+# rejects any staged file > 50 MB. Add such files explicitly below if needed.
