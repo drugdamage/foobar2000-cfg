@@ -32,3 +32,6 @@ running
 # --- Files larger than 50 MB ---
 # .gitignore cannot match by size. A pre-commit hook (.git/hooks/pre-commit)
 # rejects any staged file > 50 MB. Add such files explicitly below if needed.
+
+# --- foobar2000 library scan errors (runtime log) ---
+library-error-log.txt
